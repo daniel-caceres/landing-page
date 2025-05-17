@@ -1,0 +1,33 @@
+{
+    "nav": {
+        "home": "Home",
+        "features": "Features",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "hero": {
+        "welcome": "Welcome to MyBrand",
+        "subtitle": "Discover a new way of doing things. Innovation and quality in every detail.",
+        "cta": "Start Now"
+    },
+    "features": {
+        "title": "Our Features",
+        "cards": {
+            "design": {
+                "title": "Innovative Design",
+                "description": "We create unique and memorable experiences for our users."
+            },
+            "quality": {
+                "title": "High Quality",
+                "description": "Committed to excellence in every detail of our work."
+            },
+            "support": {
+                "title": "24/7 Support",
+                "description": "We're here to help you whenever you need us."
+            }
+        }
+    },
+    "footer": {
+        "copyright": "2025 MyBrand. All rights reserved."
+    }
+}

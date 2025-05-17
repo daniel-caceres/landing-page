@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="translations/es.json" type="application/json" id="es-translations"></script>
+    <script src="translations/en.json" type="application/json" id="en-translations"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo-container"><a href="#" class="logo">Daniel Caceres</a></div>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Inicio</a></li>
+                <li><a href="#features" data-i18n="nav.features">Sobre Mí</a></li>
+                <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+                <li><button class="lang-switch" onclick="toggleLanguage()">EN</button></li>
+            </ul>
+        </nav>
+        
+        <section class="hero">
+            <h1 data-i18n="hero.welcome">Bienvenido a Landing Page</h1>
+            <p data-i18n="hero.subtitle">Descubre una nueva forma de hacer las cosas. Innovación y calidad en cada detalle.</p>
+            <a href="#contact" class="cta-button" data-i18n="hero.cta">Comienza Ahora</a>
+        </section>
+    </header>
 
 
-    <h1>Hola</h1>
-    
+    <footer class="footer" id="contacto">
+        <p data-lang="es">2025 Daniel Caceres. Todos los derechos reservados.</p>
+        <p data-lang="en" style="display: none;">2025 Daniel Caceres. All rights reserved.</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,33 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "features": "Características",
+        "portfolio": "Portfolio",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "welcome": "Bienvenido a Landing Page",
+        "subtitle": "Descubre una nueva forma de hacer las cosas. Innovación y calidad en cada detalle.",
+        "cta": "Comienza Ahora"
+    },
+    "features": {
+        "title": "Nuestras Características",
+        "cards": {
+            "design": {
+                "title": "Diseño Innovador",
+                "description": "Creamos experiencias únicas y memorables para nuestros usuarios."
+            },
+            "quality": {
+                "title": "Alta Calidad",
+                "description": "Comprometidos con la excelencia en cada detalle de nuestro trabajo."
+            },
+            "support": {
+                "title": "Soporte 24/7",
+                "description": "Estamos aquí para ayudarte en cualquier momento que nos necesites."
+            }
+        }
+    },
+    "footer": {
+        "copyright": "2025 Daniel Caceres. Todos los derechos reservados."
+    }
+}
